@@ -1,0 +1,14 @@
+.navbar-brand
+{
+    display: inline-flex;
+   
+}
+h2{
+    margin-left: 350px;
+    color:brown;
+}
+ul li{
+    display:inline-flex;
+    padding:10px;
+    color:brown;
+}

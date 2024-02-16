@@ -1,0 +1,11 @@
+
+<h1 style="margin-left:10% ;margin-right:10%;text-align: center; color:brown;">Employee Information</h1>
+<div style="margin-left:10% ;margin-right:10%;margin-top:50px">
+    <ngx-slick-carousel class="carousel"
+    #slickModel="slick-carousel"
+    [config]="slideConfig">
+    <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+        <img src ="{{slide.img}}" alt="" class="img-style">
+    </div>
+    </ngx-slick-carousel>
+</div>
